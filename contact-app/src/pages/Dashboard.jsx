@@ -75,7 +75,7 @@ const Dashboard = () => {
   if (!user) return null;
 
   return (
-    <div className="p-6 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-700 min-h-screen">
+    <div className="p-6 bg-linear-to-br from-gray-900 via-gray-800 to-gray-700 min-h-screen">
       {/* Header */}
       <div className="flex justify-between items-center mb-8">
         <div className="flex flex-col items-center mb-8">
